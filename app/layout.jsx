@@ -1,7 +1,7 @@
 import './globals.css';
 import { karla } from './fonts';
 import { Provider } from 'services';
-import { Frame } from 'components';
+import { Frame, ToggleTheme } from 'components';
 
 export const metadata = {
   title: 'Gigi Lapachishvili',
@@ -13,8 +13,11 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body className={`w-screen h-screen ${karla.className}`}>
         <Provider>
-          <div className='w-full h-full p-12 dark:bg-dark bg-light dark:text-light text-dark'>
-            <Frame>{children}</Frame>
+          <div className='w-full p-12 h-full dark:bg-dark bg-light dark:text-light text-dark'>
+            <Frame>
+              {children}
+              <ToggleTheme />
+            </Frame>
           </div>
         </Provider>
       </body>

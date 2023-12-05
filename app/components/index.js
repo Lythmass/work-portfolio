@@ -1,1 +1,2 @@
-export { Frame, Header, IntroAnimation } from './MainPageComponents';
+export { Header, IntroAnimation } from './MainPageComponents';
+export { ToggleTheme, Frame } from './GlobalComponents';

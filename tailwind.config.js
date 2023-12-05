@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         dark: 'var(--dark)',
         light: 'var(--light)',
+        accent: 'var(--accent)',
       },
     },
   },
