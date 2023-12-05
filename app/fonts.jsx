@@ -3,8 +3,7 @@ import { Karla } from 'next/font/google';
 
 export const montserrat = Montserrat({
   subsets: ['latin'],
-  weight: '800',
-  weight: '400',
+  weight: ['800', '700', '400'],
 });
 
 export const karla = Karla({
