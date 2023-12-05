@@ -1,1 +1,1 @@
-export { Frame, Header } from './MainPageComponents';
+export { Frame, Header, IntroAnimation } from './MainPageComponents';

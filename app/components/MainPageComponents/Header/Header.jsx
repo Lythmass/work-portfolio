@@ -1,10 +1,11 @@
 import { montserrat } from 'fonts';
 import Image from 'next/image';
+import { IntroAnimation } from 'components';
 
 export const Header = () => {
   return (
-    <div className='flex flex-col items-center gap-3'>
-      <div className='rounded-full border-2 dark:border-light border-dark mb-1'>
+    <div className={`${montserrat.className} flex flex-col items-center gap-3`}>
+      <div className='rounded-full border-2 dark:border-light border-dark'>
         <Image
           width={512}
           height={512}
@@ -13,12 +14,10 @@ export const Header = () => {
           alt='Gigi Lapachishvili Portfolio'
         />
       </div>
-      <h1 className={`text-2xl ${montserrat.className} font-bold`}>
+      <h1 className={`text-2xl font-bold leading-none`}>
         I&apos;m Gigi Lapachishvili
       </h1>
-      <h1 className={`text-xl ${montserrat.className}`}>
-        Hi there! Are you looking for a Full-Stack Web Developer?
-      </h1>
+      <IntroAnimation />
     </div>
   );
 };
