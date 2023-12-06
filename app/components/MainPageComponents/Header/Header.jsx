@@ -1,6 +1,6 @@
 import { montserrat } from 'fonts';
 import Image from 'next/image';
-import { IntroAnimation } from 'components';
+import { IntroAnimation, Socials } from 'components';
 
 export const Header = () => {
   return (
@@ -18,6 +18,7 @@ export const Header = () => {
         I&apos;m Gigi Lapachishvili
       </h1>
       <IntroAnimation />
+      <Socials />
     </div>
   );
 };
