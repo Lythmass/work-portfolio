@@ -8,6 +8,5 @@ export const montserrat = Montserrat({
 
 export const karla = Karla({
   subsets: ['latin'],
-  weight: '800',
-  weight: '400',
+  weight: ['400', '500', '700'],
 });
