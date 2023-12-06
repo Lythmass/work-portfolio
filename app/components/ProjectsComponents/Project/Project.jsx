@@ -12,7 +12,7 @@ export const Project = (props) => {
         {props.title} ↗️
       </a>
       <Image
-        className='w-full border-2 dark:border-light border-dark h-64 object-cover'
+        className='w-full border-2 dark:border-light border-dark h-[40vh] object-cover'
         src={`/images/${props.image}`}
         alt={props.title}
         width={1000}

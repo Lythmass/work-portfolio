@@ -3,3 +3,4 @@ export { ToggleTheme, Frame, NavBar, NavBarItem } from './GlobalComponents';
 export { AboutMeText } from './AboutComponents';
 export { Skill, DisplaySkills } from './SkillsComponents';
 export { Project, DisplayProjects } from './ProjectsComponents';
+export { Input, ContactInfo, Form } from './ContactComponents';

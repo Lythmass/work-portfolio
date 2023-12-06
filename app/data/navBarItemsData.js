@@ -19,5 +19,10 @@ export const navBarItemsData = [
     name: 'Projects',
     link: '/projects',
   },
+  {
+    id: 5,
+    name: 'Contact',
+    link: '/contact',
+  },
 ];
 export default navBarItemsData;
