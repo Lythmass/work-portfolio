@@ -4,11 +4,13 @@ import { Input } from 'components';
 import { validationData } from 'data';
 import { montserrat } from 'fonts';
 import { useForm } from 'react-hook-form';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export const Form = () => {
   const methods = useForm({ mode: 'onBlur' });
-  const submitHandler = (data) => {
-    console.log(data);
+  const submitHandler = () => {
+    toast.success('Your Message was Succesfully Sent!');
   };
   return (
     <form
