@@ -13,7 +13,7 @@ export const ToggleTheme = () => {
     setTheme(value);
   };
   return (
-    <div className='flex gap-4 items-center'>
+    <div className='flex gap-4 items-center absolute left-8 bottom-6'>
       <div
         onClick={() => handleChange('light')}
         className='rounded-lg hover:scale-110 cursor-pointer border-2 transition-all dark:border-light border-accent p-2'

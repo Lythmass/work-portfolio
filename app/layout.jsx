@@ -1,7 +1,7 @@
 import './globals.css';
 import { karla } from './fonts';
 import { Provider } from 'services';
-import { Frame, ToggleTheme } from 'components';
+import { Frame, NavBar, ToggleTheme } from 'components';
 
 export const metadata = {
   title: 'Gigi Lapachishvili',
@@ -15,6 +15,7 @@ export default function RootLayout({ children }) {
         <Provider>
           <div className='w-full p-12 h-full dark:bg-dark bg-light dark:text-light text-dark'>
             <Frame>
+              <NavBar />
               {children}
               <ToggleTheme />
             </Frame>
